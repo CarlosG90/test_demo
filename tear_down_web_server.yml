@@ -1,5 +1,5 @@
 ---
-- name: Apache server installed
+- name: Remove apache server 
   hosts: web
   become: yes
   tasks:
