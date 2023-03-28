@@ -1,5 +1,5 @@
 - name: Install oracle db
-  hosts: all
+  hosts: node1 ansible_host
 
   roles:
     - role: lean_delivery.oracle_db
